@@ -1,0 +1,21 @@
+CSE534, Project
+Author: Sayan Bandyopadhyay, Prasoon Rai
+
+This project aims at developing and analyzing different topologies used in Data centers using Mininet
+
+
+Content Description:
+
+mininet/fat_tree.py: contains code to bringup fat tree topology.
+
+    Usage: sudo python fat_tree.py <K> <topology>
+
+mininet/tree1024.py: contains code to bringup general tree topology. This python file keeps on creating topologies for hosts ranging from 2^k where k = {2 to 10}. As soon as you hit quit from CLI, the next 2^k topology is brought up for analysis. This is for OVS controller. The counterpart file mininet/tree1024_pox.py is for POX controller.
+
+    Usage: sudo python tree1024.py
+
+
+./*.py: Contains code for plotting observed values
+
+
+
